@@ -12,3 +12,4 @@ function menorValor(arrProdutos, posicaoInicial) {
 }
 
 module.exports = menorValor;
+
