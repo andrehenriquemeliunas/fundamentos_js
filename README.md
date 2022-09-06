@@ -1,2 +1,3 @@
-# fundamentos_js
- Estudos relacionados ao trabalho, realizado na Alura, sendo o curso JavaScript para back-end
+# JavaScript para Back-End
+Curso realizado na Alura, com o conteúdo bem extenso do básico ao avançado sobre JS.
+ 
