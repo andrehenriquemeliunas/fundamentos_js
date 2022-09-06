@@ -20,7 +20,7 @@ console.log(area)
 
 
 // CONST
-const forma = 'quadrada'
+//const forma = 'quadrada'
 const altura = 5
 const comp = 7
 let area

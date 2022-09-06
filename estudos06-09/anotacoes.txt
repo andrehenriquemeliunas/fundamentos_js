@@ -1,0 +1,27 @@
+-> Anotações Estudos do dia 06/09/2022
+
+Aula: Merge Sort/Intercalando Valores
+
+- Nessa aula ela explica a teoria do Merge Sort, que basicamente é uma fusão de duas partes de uma lista, ordenada. Ou seja, em uma lista de 12 elementos, para melhor performance do algoritmo, podemos colocar a posição inicial no índice [0] e colocar a posição final no índice [4] por exemplo, dessa forma ele quebra essa lista em outra mini lista, e já vai ordenando de acordo com o valor do livro.
+- E com isso, colocamos o conceito de DIVIDIR PARA CONQUISTAR
+
+
+Aula: Merge Sort/Como o Merge Sort funciona?
+
+- Esquema de funcionamento passo a passo:
+    1. Começamos com um array desordenado
+    2. Dividimos o array em 2 partes desordenadas
+    3. Para cada uma das duas partes desordenadas, subdividimos em 2 outras partes e as ordenamos
+    4. Ornando as duas subdivisões, voltamos ao passo 2 só que ordenadas (cada parte com a sua)
+    5. Unimos os dois arrays que estavam divididos e pronto, lista ordenada
+
+
+Aula: Merge Sort/Implementando o algoritmo
+
+- Passando o esquema acima para o código
+- index.js nessa mesma pasta
+
+
+Aula: Merge Sort/Recursão
+
+- Iremos revisão a função "mergeSort(array)" do arquivo mencionado acima.
