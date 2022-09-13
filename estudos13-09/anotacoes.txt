@@ -1,0 +1,20 @@
+-> ANOTAÇÕES ESTUDOS DIA 13/09
+
+-- Aula: Posicionando um pivô --
+
+Nessa aula a temática era a seguinte: Temos um vale compras de 30 reais, e com isso precisamos ver os livros de 30 reais ou menos (dentro do array de livros) para poder escolher qual vamos comprar. Código no "encontraMenores.js" dessa pasta.
+Obtivemos como resultado a exibição do pivô que o livro do Java de 30 reais, e também trocamos de lugar com o lugar que ele deveria estar. Na próxima aula, ordenaremos, ou seja, os mais baratos que 30 de um lado, os mais caros do outro.
+
+-- Aula: Ordenação pelo pivô --
+
+Nessa aula, configuramos a ordenação do array a partir do pivo apresentado, que no caso, colocamos pra ser o elemento que está no meio do array, e colocamos os mais baratos que ele pra cima e os mais caros pra baixo(exibição do resultado).
+Para isso, utilizamos a função "dividePivo" no arquivo.
+
+-- Aula: Quick Sort --
+
+Nessa aula ela explicou de maneira visual como podemos ordenar essa nova lista que geramos, utilizando a mesma teoria de dividir para conquistar, seguimos a mesma lógica das primeiras funções para dividir o array a partir de um valor. Fazemos uma espécie de rotatividade, então verifica qual é o do meio e quais estão a esquerda, após ordenar estes, verifica novamente qual é o do meio e faz o mesmo processo até o fim do array.
+
+-- Aula: Entendendo o código e Implementando Código--
+
+Nessas aulas colocamos em prática a necessidade que tínhamos explicados na aula anterior de maneira visual.
+
