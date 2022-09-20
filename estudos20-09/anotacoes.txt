@@ -1,0 +1,5 @@
+-- ANOTAÇÕES ESTUDOS DIA 20/09 --
+-> Busca Binária - Mód 4
+
+> Dividir para buscar
+Nessa aula ela basicmanete explicou a teoria do cód que vamos colocar em prática, na seguinte situação: em uma lista de livros, você tem 30 reais pra gastar, e com isso, ja descarta o mais caros que isso, e os muito baratos, sempre buscando a média. E é isso que vamos aplicar no código.
