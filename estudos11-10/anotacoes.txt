@@ -1,0 +1,7 @@
+***** NODE JS -> CRIANDO MINHA PRIMEIRA BIBLIOTECA *****
+
+-> Aula 1 - Apresentação
+Explicou onde estamos e o que veremos nesse curso
+
+-> Aula 2 - Entendendo o problema
+Problema: Em um blog, por exemplo, são usados muitos links de referência e são deixados no site para que o usuário poça clicar, com isso, com o passar do tempo, esses links podem sair do ar, e no blog fica um link que não está ligado a nada. E esse é o problema, iremos criar um biblioteca que verifique se os links de determinados blogs ainda estão disponíveis.
