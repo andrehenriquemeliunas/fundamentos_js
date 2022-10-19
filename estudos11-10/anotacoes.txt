@@ -5,3 +5,18 @@ Explicou onde estamos e o que veremos nesse curso
 
 -> Aula 2 - Entendendo o problema
 Problema: Em um blog, por exemplo, são usados muitos links de referência e são deixados no site para que o usuário poça clicar, com isso, com o passar do tempo, esses links podem sair do ar, e no blog fica um link que não está ligado a nada. E esse é o problema, iremos criar um biblioteca que verifique se os links de determinados blogs ainda estão disponíveis.
+
+
+***** NODE JS -> CARREGAMENTO DE ARQUIVOS*****
+
+--> AULA: PROMESSAS
+
+-> Código Síncrono 
+- Execução em sequência
+- Uma intrução após a outra
+- Comunicação por rádio
+
+-> Código Assíncrono
+- Não espera a finalização de uma tarefa para iniciar a seguinte ( Não sabe quando, nem se, vai acontecer)
+- Aguarda a finalização da tarefa apra retonar o resultado
+- Mensageiros(WhatsApp, telegram)

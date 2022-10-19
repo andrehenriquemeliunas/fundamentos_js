@@ -1,7 +1,39 @@
-//const chalk = require('chalk')
+import fs from 'fs'
 
-import chalk from 'chalk'
+function trataErro(erro){
+    throw new Error(erro.code, 'Não há arquivo no diretório')
+}
 
-console.log(chalk.blue('ola mundo!'))
-console.log('São geralmente recuperados a partir de um objeto [FileList](https://developer.mozilla.org/pt-BR/docs/Web/API/FileList) que é retornado como resultado da seleção, pelo usuário, de arquivos através do elemento [<input>](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Input)')
-console.log('São geralmente recuperados a partir de um objeto [FileList](https://developer.mozilla.org/pt-BR/docs/Web/API/FileList) que é retornado como resultado da seleção, pelo usuário, de arquivos através do elemento [<input>](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Input)')
+//----------> async/await
+async function pegaArquivo(caminhoDoArquivo){
+    try {
+        const encoding = 'utf-8'
+        const texto = await fs.promises.readFile(caminhoDoArquivo, encoding)
+        console.log(texto)
+    }catch(erro){
+        trataErro(erro)
+    }
+}
+
+
+//----------> promises com then()
+
+//function pegaArquivo(caminhoDoArquivo){
+//    const encoding = 'utf-8'
+//    fs.promises
+//        .readFile(caminhoDoArquivo, encoding)
+//        .then((texto) => console.log(texto))
+//        .catch((trataErro))
+//}
+
+//function pegaArquivo(caminhoDoArquivo){
+//    const encoding = 'utf-8'
+//    fs.readFile(caminhoDoArquivo, encoding, (erro, texto ) => {
+//        if(erro){
+//            trataErro(erro)
+//        }
+//        console.log(texto)
+//    })
+//}
+
+pegaArquivo('.estudos11-10/texto.md')
